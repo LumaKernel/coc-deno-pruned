@@ -156,7 +156,7 @@ async function tryActivate(context: ExtensionContext): Promise<void> {
           // information on the event not being reliable.
           { settings: null },
         );
-        commands.executeCommand("deno.restart");
+        // commands.executeCommand("deno.restart");
       }
     }),
     // Register a content provider for Deno resolved read-only files.
